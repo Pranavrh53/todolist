@@ -1,6 +1,6 @@
 /* Apply the futuristic city background to the entire page */
 body {
-    background-image: url('futuristic-city.jpg');
+    background-image: url('D:\todolist\my-react-app\src\assets\react.svg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

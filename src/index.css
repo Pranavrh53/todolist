@@ -1,6 +1,6 @@
 /* Apply the futuristic city background to the entire page */
 body {
-    background-image: url('D:\todolist\my-react-app\src\assets\react.svg');
+    background-image: url('D:\todolist\my-react-app\src\assetsd\react.svg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -122,3 +122,57 @@ li {
         transform: translateY(0);
     }
 }
+
+.stopwatch{
+
+   text-align: center;
+   background-color: #e7d6d6;
+   border: 3px solid;
+   border-radius: 15px;
+   padding-top: 3px;
+}
+
+.display{
+
+    font-style:oblique;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.ll{
+    color: #e1e8e4;
+}
+
+.start{
+
+    width: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-width: 2px;
+    background-color: #62ff49;
+    margin:10px;
+    border-radius: 15px;
+    
+}
+.stop{
+
+    width: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-width: 2px;
+    margin:10px;
+    background-color: #fb0f0f;
+    border-radius: 15px;
+}
+.reset{
+
+    width: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    border-width:2px;
+    margin:10px;
+    border-radius: 15px;
+    background-color: #06b6d4;
+    
+}
+.start.hover{
+    background-color: green;
+}
+
